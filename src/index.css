@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: lightsalmon;
+}
+
+.page-container {
+    width: 800px;
+    margin: 10px auto;
+    padding: 32px; /*la pagina se hara mas grande y el body mas pequeño*/
+    background-color: orangered;
+}
+
+.product-listing {
+  display: flex;/*fila*/
+  flex: 1;
+  flex-wrap: wrap; /*envolvente*/
+  flex-direction: row; /*mostrar en fila*/
+}
+
+.product-listing .product-list-item {
+  padding: 10px 30px;
+  width: 200px;/*bloke bakoitzan zabalera*/
+}
